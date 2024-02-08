@@ -7,7 +7,10 @@
     "outDir": "./dist/",
     "noEmitOnError": true,
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": false
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "useUnknownInCatchVariables": true
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts"]
 }
